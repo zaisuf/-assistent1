@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://Assistlore.co
-
-# Sitemaps
-Sitemap: https://Assistlore.co/sitemap.xml
