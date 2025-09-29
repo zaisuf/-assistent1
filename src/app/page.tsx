@@ -12,7 +12,7 @@ import SixBoxSection from "../components/SixBoxSection";
 import AIBlogSection from "../components/AIBlogSection";
 import AIServerSection from "../components/AIServerSection";
 import FooterSection from "../components/FooterSection";
-import HexagonGrid from "../components/HexagonGrid";
+
 import "../styles/global-transparent.css";
 
 export default function Home() {
@@ -111,9 +111,9 @@ export default function Home() {
       className="relative flex w-screen h-screen overflow-hidden bg-gradient-to-r from-black via-blue-950 to-gray-900 font-sans"
     >
       <div className="absolute inset-0 z-0">
-        <HexagonGrid />
+      
       </div>
-      <div className="fixed top-0 left-0 w-full z-50 pointer-events-none bg-transparent">
+      <div className="fixed top-0 left-0 w-full z-50 bg-transparent">
         <Header />
       </div>
       <motion.div
